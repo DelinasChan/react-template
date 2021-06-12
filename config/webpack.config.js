@@ -337,6 +337,7 @@ module.exports = function (webpackEnv) {
         // Custom path
         '@':path.resolve(__dirname,'../src/'),
         '@lib':path.resolve(__dirname,'../src/lib/'),
+        '@redux':path.resolve(__dirname,'../src/redux/'),
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
